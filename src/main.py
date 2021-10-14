@@ -1,16 +1,15 @@
 import asyncio
+from utils import common
 
-print("Hello Python")
 
-
-async def say_hello(ms: int):
-    print("Hello world!")
+async def callphone(ms: int):
+    common.say_hello("Hello world!")
     await asyncio.sleep(ms)
-    print("Hello again!")
+    common.say_hello("Hello again!")
 
 
 async def application():
-    await say_hello(2)
+    await callphone(2)
 
 
 task = application()

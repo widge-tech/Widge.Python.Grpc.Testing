@@ -1,0 +1,11 @@
+# IDEs and editors
+.vscode/
+
+# misc
+docs/
+environments/
+.editorconfig
+Pipfile.lock
+
+# System Files
+.DS_Store
