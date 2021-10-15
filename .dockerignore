@@ -1,11 +1,12 @@
-# IDEs and editors
-.vscode/
+.DS_Store
+.git
+.idea
+.vscode
 
-# misc
 docs/
 environments/
-.editorconfig
-Pipfile.lock
+protos/
 
-# System Files
-.DS_Store
+.editorconfig
+.gitignore
+build.bash

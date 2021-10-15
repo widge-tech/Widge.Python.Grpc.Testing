@@ -10,6 +10,7 @@ grpcio-tools = "*"
 
 [dev-packages]
 autopep8 = "*"
+grpcio-tools = "*"
 
 [requires]
 python_version = "3.8"
