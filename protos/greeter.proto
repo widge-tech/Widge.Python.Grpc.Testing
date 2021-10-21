@@ -1,5 +1,10 @@
 syntax = "proto3";
 
+package packages.grpc;
+option go_package = "./grpc/testing";
+// option java_package = "";
+// option csharp_namespace = "";
+
 // The greeting service definition.
 service Greeter {
   // Sends a greeting

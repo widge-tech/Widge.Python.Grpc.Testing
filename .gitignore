@@ -111,3 +111,6 @@ venv.bak/
 
 # Other
 Pipfile.lock
+
+src/packages/grpc/*
+!src/packages/grpc/__init__.py
