@@ -1,7 +1,6 @@
 import asyncio
 from utils import common
 from concurrent import futures
-import logging
 import grpc
 from packages.grpc import greeter_pb2_grpc, greeter_pb2
 

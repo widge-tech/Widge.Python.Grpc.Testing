@@ -39,5 +39,9 @@ bash build.bash
 > 运行项目
 
 ```bash
+# 启动服务
 python src/main.py
+
+# 客户端测试
+python src/client.py
 ```
