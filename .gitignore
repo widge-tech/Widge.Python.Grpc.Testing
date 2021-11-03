@@ -105,8 +105,6 @@ venv.bak/
 
 # Sys
 .DS_Store
-.vscode/*
-!.vscode/launch.json
 .idea/
 
 # Other
