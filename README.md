@@ -2,7 +2,7 @@
 
 ### 环境依赖
 
-> 依赖管理工具为 pipenv。详细文档请参考[pipenv](https://github.com/pypa/pipenv)
+> [python](https://www.python.org/downloads/)版本>=3.8, 如果版本过低，案例中的部分用法可能不支持，请根据实际情况选择更新 python 版本或调整代码。依赖管理工具为 pipenv，详细文档请参考[pipenv](https://github.com/pypa/pipenv)
 
 ```bash
 # 安装命令
