@@ -24,7 +24,7 @@ pipenv install
 pipenv graph
 # 卸载依赖
 pipenv uninstall <package>
-# 通过文件安装依赖
+# 通过requirements文件安装依赖
 pipenv install -r requirements.txt
 ```
 
@@ -69,7 +69,7 @@ docker build --pull --rm -f "Dockerfile" -t <name=grpc.testing>:<version=latest>
 1. 配置 ssh
 
 ```
-Host Ubuntu[Aliyun]
+Host <display_name>
     HostName <ip|doname>
     User <username>
     IdentityFile <pem_path>
