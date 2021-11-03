@@ -2,7 +2,7 @@
 
 ### 环境依赖
 
-> 如果没有 pipenv，先安装
+> 依赖管理工具为 pipenv。详细文档请参考[pipenv](https://github.com/pypa/pipenv)
 
 ```bash
 # 安装命令
