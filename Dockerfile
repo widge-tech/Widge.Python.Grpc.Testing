@@ -1,4 +1,4 @@
-FROM python:3.10.0
+FROM python:3.10.2
 ADD . /app
 VOLUME /app/environments
 WORKDIR /app
