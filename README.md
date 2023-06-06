@@ -41,7 +41,7 @@ bash build.bash
 
 编译说明：Linux 环境下请保证`build.bash`文件的换行符格式为 Unix 格式，否则会出现编译失败的情况。
 
-由于目前编译器对 python 模块化支持不够，编译完成后，需要手动调整 import 路径（添加`packages.grpc.`前缀）。
+由于目前编译器对 python 模块化支持不够，编译完成后，需要手动调整 import 路径（在`src/packages/grpc/greeter_pb2_grpc.py`文件添加`packages.grpc.`，把`import greeter_pb2 as greeter__pb2`改为的`import packages.grpc.greeter_pb2 as greeter__pb2`）。
 
 > 运行项目
 
