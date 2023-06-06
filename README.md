@@ -64,8 +64,8 @@ docker build --pull --rm -f "Dockerfile" -t <name=grpc.testing>:<version=latest>
 
 1. 安装 [Visual Studio Code](https://code.visualstudio.com/Download) 编辑器
 1. 安装 Remote 插件
-   1. [remote-ssh](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
-   1. [remote-ssh-edit](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
+    1. [remote-ssh](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+    1. [remote-ssh-edit](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
 1. 配置 ssh
 
 ```
